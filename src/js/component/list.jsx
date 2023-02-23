@@ -6,7 +6,7 @@ const List = () => {
   
   useEffect(()=>{
     if(items.length > 0){
-      fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr', {
+      fetch('https://assets.breatheco.de/apis/fake/todos/user/juanjoserusa', {
       method: "PUT",
       body: JSON.stringify(items),
       headers: {
